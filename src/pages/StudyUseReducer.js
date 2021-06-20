@@ -18,6 +18,7 @@ const StudyUseReducer = () => {
   };
 
   const reducerFunc = (countState, action) => {
+    console.log("run reducerFunc()");
     switch (action.type) {
       case "incrementAll":
         return {
